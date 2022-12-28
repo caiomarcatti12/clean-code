@@ -11,6 +11,20 @@ Para escrever um clean code, um desenvolvedor deve seguir um conjunto de princí
 - Seguindo padrões e convenções de codificação estabelecidos
 - O objetivo do clean code é tornar mais fácil para os desenvolvedores entender e modificar a base de código, o que pode melhorar a qualidade geral e a confiabilidade do software. Também pode facilitar a integração de novos membros da equipe e a colaboração com outros desenvolvedores.
 
+# Benefícios
+Usar o clean code traz várias vantagens para o desenvolvimento de software, incluindo:
+
+- Facilita a manutenção do código: Quando o código é limpo e bem organizado, fica mais fácil entendê-lo e manter. Isso significa que é mais fácil adicionar novas funcionalidades, corrigir problemas e realizar outras tarefas de manutenção.
+
+- Diminui o tempo de desenvolvimento: Escrever clean code pode levar mais tempo no começo, mas isso pode economizar tempo no longo prazo, pois o código será mais fácil de entender e manter. Isso significa que será possível implementar novas funcionalidades mais rapidamente e com menos problemas.
+
+- Aumenta a confiabilidade do código: Quando o código é limpo e bem testado, fica mais fácil identificar e corrigir problemas e falhas. Isso aumenta a confiabilidade do código e ajuda a garantir que ele funcione corretamente.
+
+- Facilita a colaboração entre os desenvolvedores: Quando o código é limpo e bem organizado, fica mais fácil para os desenvolvedores trabalharem juntos e compartilharem o código. Isso aumenta a eficiência da equipe e pode aumentar a qualidade do código.
+
+- Facilita a evolução do código: Quando o código é limpo e bem organizado, fica mais fácil evoluí-lo e adicionar novas funcionalidades. Isso ajuda a garantir que o código continue sendo relevante e útil ao longo do tempo.
+
+Em resumo, usar o clean code traz várias vantagens para o desenvolvimento de software, incluindo facilitação da manutenção do código, diminuição do tempo de desenvolvimento, aumento da confiabilidade do código, facilitação da colaboração entre os desenvolvedores e facilitação da evolução do código
 
 # Conceitos
 - [A divida técnica](01-divida-tecnica.md)
