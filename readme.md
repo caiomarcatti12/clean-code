@@ -1,4 +1,4 @@
-# O que é o clean code (clean code)
+# O que é o clean code (código limpo)
 
 O clean code é uma prática de desenvolvimento de software que enfatiza a importância de escrever um código que seja fácil de ler, entender e manter. Baseia-se na ideia de que o código é uma forma de comunicação entre desenvolvedores e que deve ser claro e conciso.
 
