@@ -1,6 +1,6 @@
 # Solid
 
-O SOLID é um conjunto de princípios de projeto de software que visam ajudar a escrever código limpo e de alta qualidade. O SOLID foi criado por Robert C. Martin (também conhecido como "Uncle Bob") e consiste em cinco princípios:
+O SOLID é um conjunto de princípios de projeto de software que visam ajudar a escrever clean code e de alta qualidade. O SOLID foi criado por Robert C. Martin (também conhecido como "Uncle Bob") e consiste em cinco princípios:
 
 - Single Responsibility Principle (Princípio da Responsabilidade Única): Este principio diz que cada classe deve ter apenas uma responsabilidade e que essa responsabilidade deve estar bem definida. Isso ajuda a garantir que as classes sejam pequenas e coesas, o que torna o código mais fácil de entender e manter.
 
