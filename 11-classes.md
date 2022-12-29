@@ -16,6 +16,12 @@ Em resumo, criar classes no clean code envolve ter um propósito claro, manter a
 
 # Exemplo de classe não coesa
 
+Uma classe não coesa é aquela que tem muitas responsabilidades e faz muitas coisas diferentes. Isso pode ser um problema porque a classe fica grande e difícil de entender e manter. Além disso, se uma classe tem muitas responsabilidades, é mais provável que ela acabe sendo modificada por várias razões diferentes, o que pode levar a um código instável e difícil de manter.
+
+O princípio da coesão sugere que uma classe deve ter uma única responsabilidade e todos os seus métodos devem estar relacionados a essa responsabilidade. Isso torna a classe mais fácil de entender e mais fácil de manter.
+
+Para tornar uma classe mais coesa, você pode dividir a classe em várias classes menores, cada uma com uma responsabilidade única. Você também pode mover métodos que não estão relacionados à responsabilidade principal da classe para outras classes mais adequadas. Isso ajuda a manter o código limpo e organizado, o que torna mais fácil de ler e entender.
+
 ```
 class User {
   private $name;
@@ -129,6 +135,6 @@ class PasswordHasher {
 ```
 
 
-### O que mudou?
+# O que mudou?
 
 Agora, cada classe tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade. Isso torna a classe mais fácil de entender e mais fácil de manter. Além disso, se uma classe tem uma única responsabilidade, é menos provável que ela seja modificada por várias razões diferentes, o que ajuda a manter o código estável.
