@@ -140,3 +140,30 @@ class PasswordHasher {
 # O que mudou?
 
 Agora, cada classe tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade. Isso torna a classe mais fácil de entender e mais fácil de manter. Além disso, se uma classe tem uma única responsabilidade, é menos provável que ela seja modificada por várias razões diferentes, o que ajuda a manter o código estável.
+
+
+# Exemplos de nome de classes não coesas 
+Aqui estão alguns exemplos de nomes de classes que podem ser considerados não coesos:
+
+- "Utility": esse nome de classe é amplo e não dá muitas pistas sobre o que a classe faz ou qual é a sua responsabilidade. Ela pode ter métodos para fazer qualquer tipo de tarefa  útil.
+
+- "Helper": esse nome de classe é ainda mais amplo e genérico do que o anterior. Ele não dá nenhuma pista sobre o que a classe faz ou qual é a sua responsabilidade.
+
+- "Manager": esse nome de classe é amplo e genérico e não dá nenhuma pista sobre o que a classe faz ou qual é a sua responsabilidade. Ela pode ser usada para gerenciar qualquer coisa.
+
+Para tornar os nomes de classes mais coesos, é importante escolher nomes que sejam específicos e descrevam exatamente o que a classe faz ou qual é a sua responsabilidade. Isso ajuda a manter o código limpo e organizado e facilita a depuração e manutenção do código.
+
+
+# Exemplos de nome de classes coesas 
+
+Aqui estão alguns exemplos de nomes de classes coesos:
+
+- "DataValidator": esse nome de classe é específico e descreve exatamente o que a classe faz. Ela tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade.
+
+- "EmailSender": esse nome de classe é específico e descreve exatamente o que a classe faz. Ela tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade.
+
+- "PasswordHasher": esse nome de classe é específico e descreve exatamente o que a classe faz. Ela tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade.
+
+- "DatabaseConnection": esse nome de classe é específico e descreve exatamente o que a classe faz. Ela tem uma única responsabilidade e todos os seus métodos estão relacionados a essa responsabilidade.
+
+Nomes de classe coesos são específicos e descrevem exatamente o que a classe faz ou qual é a sua responsabilidade, o que ajuda a manter o código limpo e organizado. Além disso, se uma classe tem uma única responsabilidade, é menos provável que ela seja modificada por várias razões diferentes, o que ajuda a manter o código estável.
