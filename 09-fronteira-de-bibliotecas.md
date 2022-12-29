@@ -7,11 +7,8 @@ No entanto, é importante usar bibliotecas de maneira moderada e apropriada no c
 Aqui estão algumas dicas para usar bibliotecas no clean code:
 
 - Escolha bibliotecas de qualidade: Escolha bibliotecas de qualidade que tenham sido amplamente testadas e utilizadas por outras pessoas. Isso ajuda a garantir que elas funcionem corretamente e que você não terá problemas futuros.
-
 - Use bibliotecas de forma apropriada: Use bibliotecas de forma apropriada, de acordo com seus propósitos e documentação. Não use bibliotecas de maneira a violar os termos de uso ou a propriedade intelectual.
-
 - Mantenha o número de bibliotecas a um mínimo: Evite adicionar muitas bibliotecas diferentes ao seu projeto, pois isso pode sobrecarregar o código e torná-lo mais difícil de manter. Em vez disso, tente encontrar bibliotecas que forneçam múltiplas funcionalidades e as use de maneira apropriada.
-
 - Documente as bibliotecas que você está usando e explique por que você está usando elas. Isso pode ajudar outras pessoas a entender o código e a mante-la.
 
 # Encapsulamento da biblioteca
@@ -23,7 +20,5 @@ A encapsulação envolve criar uma camada de abstração entre o código da bibl
 A encapsulação tem vários benefícios no clean code, incluindo:
 
 - Torna o código mais fácil de entender: Ao encapsular o uso da biblioteca em uma camada de abstração, você pode esconder os detalhes técnicos da biblioteca e expor apenas os recursos ou funcionalidades que são realmente necessários para o seu programa. Isso torna o código mais fácil de entender e de ler.
-
 - Facilita a manutenção do código: Ao encapsular o uso da biblioteca, você pode facilmente alterar ou atualizar a biblioteca sem afetar o resto do código do seu programa. Isso pode tornar o processo de manutenção do código mais eficiente.
-
 - Facilita a reutilização do código: Ao encapsular o uso da biblioteca, você pode facilmente reutilizar o código da biblioteca em outros projetos sem ter que se preocupar com os detalhes técnicos da biblioteca.

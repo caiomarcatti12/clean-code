@@ -7,7 +7,5 @@ A refatoração tempestiva é diferente da refatoração radical, que envolve fa
 Para fazer refatoração tempestiva de maneira eficiente, é importante seguir algumas dicas, como:
 
 - Usar testes de unidade: Os testes de unidade ajudam a garantir que o código esteja funcionando corretamente antes e depois da refatoração, o que ajuda a evitar introduzir falhas ou regressões no código.
-
 - Fazer mudanças pequenas e incrementalmente: Ao invés de fazer grandes alterações de uma vez, é melhor fazer mudanças pequenas e incrementalmente, de modo que seja mais fácil identificar e corrigir qualquer problema que possa surgir.
-
 - Documentar as alterações: Documente as alterações que está fazendo no código, especialmente se elas forem mais complexas ou significativas. Isso ajuda a tornar o código mais fácil de entender e manter.

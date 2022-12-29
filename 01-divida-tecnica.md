@@ -13,22 +13,12 @@ Para evitar ou reduzir a dívida técnica, é importante que os desenvolvedores 
 Existem várias estratégias que podem ser usadas para abordar e reduzir a dívida técnica:
 
 - Revise e avalie regularmente a dívida técnica na base de código: Isso envolve a identificação de áreas do código que são difíceis de entender, manter ou testar e determinar o impacto potencial desses problemas no projeto.
-
 - Priorize o tratamento da dívida técnica: é importante priorizar o tratamento da dívida técnica em vez de adicionar novos recursos, pois o custo a longo prazo de ignorar a dívida técnica pode ser muito maior.
-
 - Refatorar o código: refatorar é o processo de reorganizar e reestruturar o código sem alterar sua funcionalidade. Isso pode envolver simplificar o código, melhorar sua estrutura ou torná-lo mais modular.
-
 - Adicione testes automatizados: os testes automatizados podem ajudar a garantir que as alterações de código não introduzam novos bugs ou regressões. Eles também podem facilitar a identificação e correção de problemas quando eles ocorrem.
-
 - Melhorar a documentação: uma documentação clara e abrangente pode facilitar a compreensão e a manutenção da base de código pelos desenvolvedores.
-
 - Siga as melhores práticas: aderir aos padrões de codificação estabelecidos e às melhores práticas pode ajudar a evitar o acúmulo de dívidas técnicas.
-
 - Ao seguir essas estratégias, é possível reduzir gradualmente e eliminar a dívida técnica ao longo do tempo, melhorando a capacidade de manutenção e a qualidade da base de código a longo prazo.
-
-
-
-
 
 # Referências
 - [https://artesoftware.com.br/2019/02/10/divida-tecnica/](https://artesoftware.com.br/2019/02/10/divida-tecnica/)
