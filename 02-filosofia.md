@@ -1,3 +1,5 @@
+# Filosofia pregada pelo clean code
+
 A filosofia do clean code é uma abordagem para escrever código de computador que é fácil de ler e entender, fácil de modificar e mantém um alto padrão de qualidade. O clean code é importante porque torna mais fácil para os desenvolvedores trabalharem no código e para outras pessoas entenderem o que está acontecendo no código.
 
 A filosofia do clean code inclui alguns princípios básicos, como:
