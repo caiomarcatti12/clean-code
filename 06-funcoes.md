@@ -16,6 +16,77 @@ Aqui estão algumas dicas para escrever funções no conceito de clean code:
 
 Em resumo, escrever funções no conceito de clean code envolve criar funções pequenas e focadas, dar nomes significativos às funções, documentá-las, testá-las e mantê-las curtas e simples. Isso pode ajudar a tornar o código mais fácil de ler, entender e modificar, e pode aumentar a eficiência do processo de desenvolvimento de software.
 
+# O que é uma função não coesa
 
+Uma função sem coesão é aquela que faz muitas coisas diferentes ou tem várias responsabilidades. Isso pode ser um problema porque a função fica grande e difícil de entender e manter. Além disso, se uma função tem muitas responsabilidades, é mais provável que ela acabe sendo modificada por várias razões diferentes, o que pode levar a um código instável e difícil de manter.
 
+O princípio da coesão sugere que uma função deve ter uma única responsabilidade e todos os seus códigos devem estar relacionados a essa responsabilidade. Isso torna a função mais fácil de entender e mais fácil de manter.
 
+# Exemplo de função não coesa
+
+```
+function processData($data) {
+  // código para validar os dados
+  $errors = validateData($data);
+  if ($errors) {
+    return $errors;
+  }
+
+  // código para processar os dados
+  $result = processData($data);
+
+  // código para enviar os dados para o banco de dados
+  saveDataToDatabase($result);
+
+  // código para enviar um email com o resultado
+  sendEmail($result);
+
+  return $result;
+}
+```
+
+# Porque não é coesa?
+
+Essa função tem várias responsabilidades diferentes: ela valida os dados, processa os dados, salva os dados no banco de dados e envia um email. Isso pode ser um problema porque a função fica grande e difícil de entender e manter. Além disso, se uma função tem muitas responsabilidades, é mais provável que ela acabe sendo modificada por várias razões diferentes, o que pode levar a um código instável e difícil de manter.
+
+Para tornar essa função mais coesa, você pode dividi-la em várias funções menores, cada uma com uma responsabilidade única. Isso ajuda a manter o código limpo e organizado, o que torna mais fácil de ler e entender.
+
+# Trazendo coesão a função
+Aqui está uma sugestão de como refatorar a função para torná-la mais coesa:
+
+```
+function validateData($data) {
+  // código para validar os dados
+  return $errors;
+}
+
+function processData($data) {
+  // código para processar os dados
+  return $result;
+}
+
+function saveDataToDatabase($result) {
+  // código para enviar os dados para o banco de dados
+}
+
+function sendEmail($result) {
+  // código para enviar um email com o resultado
+}
+
+function processAndSaveData($data) {
+  $errors = validateData($data);
+  if ($errors) {
+    return $errors;
+  }
+
+  $result = processData($data);
+  saveDataToDatabase($result);
+  sendEmail($result);
+
+  return $result;
+}
+```
+
+# O que mudou?
+
+Agora, cada função tem uma única responsabilidade e todos os seus códigos estão relacionados a essa responsabilidade. Isso torna a função mais fácil de entender e mais fácil de manter. Além disso, se uma função tem uma única responsabilidade, é menos provável que ela seja modificada por várias razões diferentes, o que ajuda a manter o código estável.
