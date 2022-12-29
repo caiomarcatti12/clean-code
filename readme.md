@@ -34,6 +34,7 @@ Em resumo, usar o clean code traz várias vantagens para o desenvolvimento de so
 - [Formatação de código](05-formatacao-codigo.md)
 - [Objetos X Estrutura de dados](07-objetos-x-estrutura-de-dados.md)
 - [Tratamento de erros](08-tratamento-de-erros.md)
+- [Segregação de erros](15-segregacao-de-erros.md)
 - [Bibliotecas externas](09-fronteira-de-bibliotecas.md)
 - [Testes de unidade](10-tdd.md)
 - [Classes](11-classes.md)

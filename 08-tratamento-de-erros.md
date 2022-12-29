@@ -19,4 +19,49 @@ Existem várias maneiras de tratar erros no código, e muitas delas dependem do 
 Em resumo, o tratamento de erros no clean code envolve usar estruturas como try-catch para tratar erros de maneira organizada,
 
 
+# Exemplo não coeso
+Aqui está um exemplo de tratamento de erro sem coesão em PHP:
 
+```
+<?php
+
+try {
+    $result = executeOperation();
+    if (!$result) {
+        throw new Exception('Erro ao realizar a operação');
+    }
+} catch (Exception $e) {
+    // Trata o erro
+    logError($e->getMessage());
+    sendEmailToAdmin('Erro no sistema', $e->getMessage());
+    showErrorMessageToUser('Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.');
+}
+
+?>
+```
+
+Nesse exemplo, o tratamento de erro tem várias responsabilidades diferentes, como logar o erro, enviar um email para o administrador e mostrar uma mensagem de erro para o usuário. Isso pode deixar o código difícil de ler e difícil de manter, já que há várias coisas acontecendo no mesmo bloco de tratamento de erro. Além disso, se a lógica de tratamento de erro precisar ser alterada por algum motivo, pode ser difícil saber exatamente o que precisa ser modificado.
+
+# Exemplo coeso
+Aqui está uma sugestão de como refatorar o código para torná-lo mais coeso:
+
+```
+<?php
+
+try {
+    $result = executeOperation();
+    if (!$result) {
+        throw new Exception('Erro ao realizar a operação');
+    }
+} catch (Exception $e) {
+    // Trata o erro
+    $errorHandler = new ErrorHandler();
+    $errorHandler->logError($e->getMessage());
+    $errorHandler->sendEmailToAdmin('Erro no sistema', $e->getMessage());
+    $errorHandler->showErrorMessageToUser('Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.');
+}
+
+?>
+```
+
+Nesse exemplo, o tratamento de erro é mais coeso porque cada responsabilidade é delegada para um método específico da classe ErrorHandler. Isso ajuda a manter o código mais organizado e fácil de ler e facilita a manutenção do código, já que é mais fácil saber exatamente o que cada método está fazendo. Além disso, se a lógica de tratamento de erro precisar ser alterada por algum motivo, basta modificar o método relevante na classe ErrorHandler.
