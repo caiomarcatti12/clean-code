@@ -1,14 +1,14 @@
-# Linguagem unipresente
+# Linguagem onipresente
 
-Linguagem unipresente é uma prática de codificação em que todas as partes do código são escritas em uma única linguagem. Isso é considerado uma boa prática em clean code porque ajuda a manter o código limpo e organizado e facilita a leitura e a manutenção do código.
+Linguagem onipresente é uma prática de codificação em que todas as partes do código são escritas em uma única linguagem. Isso é considerado uma boa prática em clean code porque ajuda a manter o código limpo e organizado e facilita a leitura e a manutenção do código.
 
 Por exemplo, se você estiver escrevendo código PHP, é uma boa prática escrever todo o código em PHP e não misturar outras linguagens, como HTML ou JavaScript. Isso ajuda a manter o código coeso e focado em sua responsabilidade principal.
 
-Usar linguagem unipresente também pode ajudar a evitar problemas de compatibilidade ou erros de sintaxe ao misturar diferentes linguagens de programação. Além disso, ao usar uma única linguagem, é mais fácil para os outros desenvolvedores entenderem o que o código está fazendo e como ele funciona.
+Usar linguagem onipresente também pode ajudar a evitar problemas de compatibilidade ou erros de sintaxe ao misturar diferentes linguagens de programação. Além disso, ao usar uma única linguagem, é mais fácil para os outros desenvolvedores entenderem o que o código está fazendo e como ele funciona.
 
 # Exemplo
 
-Aqui está um exemplo de linguagem unipresente em PHP:
+Aqui está um exemplo de linguagem onipresente em PHP:
 
 ```
 <?php

@@ -28,7 +28,7 @@ Em resumo, usar o clean code traz várias vantagens para o desenvolvimento de so
 
 # Conceitos
 - [A divida técnica](01-divida-tecnica.md)
-- [A Filosofia]()
+- [A Filosofia](02-filosofia.md)
 - [Nomes Significativos](03-nomes-significativos.md)
 - [Comentários](04-comentarios.md)
 - [Formatação de código](05-formatacao-codigo.md)
@@ -40,6 +40,7 @@ Em resumo, usar o clean code traz várias vantagens para o desenvolvimento de so
 - [Funções](06-funcoes.md)
 - [Um pouco do Solid](12-solid.md)
 - [Refatoração Tempestiva](13-refatoracao-tempestiva.md)
+- [Linguagem onipresente](14-linguagem-onipresente.md)
   
 # Dicas
 
