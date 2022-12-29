@@ -14,13 +14,15 @@ As classes no clean code devem ser criadas de maneira clara, coesa e fácil de e
 
 Em resumo, criar classes no clean code envolve ter um propósito claro, manter as classes pequenas, escolher nomes significativos, evitar a dependência mútua e fazer as classes modulares. Isso ajuda a garantir que as classes sejam coesas, fáceis de entender e fáceis de manter.
 
-# Exemplo de classe não coesa
+# O que é uma classe não coesa
 
 Uma classe não coesa é aquela que tem muitas responsabilidades e faz muitas coisas diferentes. Isso pode ser um problema porque a classe fica grande e difícil de entender e manter. Além disso, se uma classe tem muitas responsabilidades, é mais provável que ela acabe sendo modificada por várias razões diferentes, o que pode levar a um código instável e difícil de manter.
 
 O princípio da coesão sugere que uma classe deve ter uma única responsabilidade e todos os seus métodos devem estar relacionados a essa responsabilidade. Isso torna a classe mais fácil de entender e mais fácil de manter.
 
 Para tornar uma classe mais coesa, você pode dividir a classe em várias classes menores, cada uma com uma responsabilidade única. Você também pode mover métodos que não estão relacionados à responsabilidade principal da classe para outras classes mais adequadas. Isso ajuda a manter o código limpo e organizado, o que torna mais fácil de ler e entender.
+
+# Exemplo de classe não coesa
 
 ```
 class User {
@@ -71,7 +73,7 @@ class User {
   }
 }
 ```
-### Porque não é coesa?
+# Porque não é coesa?
 
 Essa classe tem várias responsabilidades diferentes: ela armazena informações do usuário, envia emails, criptografa senhas e valida senhas. Isso pode ser um problema porque a classe fica grande e difícil de entender e manter. Além disso, se uma classe tem muitas responsabilidades, é mais provável que ela acabe sendo modificada por várias razões diferentes, o que pode levar a um código instável e difícil de manter.
 
